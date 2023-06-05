@@ -3,7 +3,7 @@
     <div class="header">
       <div style="display: flex;justify-content: flex-start;align-items: center;">
         <i class="el-icon-monitor"></i>
-      <h3>云音乐后台管理系统</h3>
+      <h3>云音乐后台管理系统11</h3>
       </div>
       <div>
          <el-dropdown trigger="click" @command="handleCommand">
@@ -16,7 +16,7 @@
       </el-dropdown-menu>
     </el-dropdown>
       </div>
-   
+
       <!-- <span class="user">欢迎你！{{ this.$store.state.saveUserName }}</span>
       <el-button type="text" class="out" @click="out">退出系统</el-button> -->
     </div>
@@ -182,7 +182,7 @@ export default {
              this.dialogVisible = false;
            this.$router.push("/login");
           }
-         
+
         })
         .catch(() => {
           this.$message.error("修改密码失败！");
